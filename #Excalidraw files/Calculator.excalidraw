@@ -1,0 +1,47 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "mHGhDuwWTsmoHG7oNZvvX",
+      "type": "text",
+      "x": 410.63214301532366,
+      "y": 219.92850549678633,
+      "width": 852.0675659179688,
+      "height": 980,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "seed": 1418854121,
+      "version": 875,
+      "versionNonce": 399110503,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1684921790172,
+      "link": null,
+      "locked": false,
+      "text": "First we write that the value of *ans* is zero.\n\nThen we create a continuous *while* loop which will \nonly stop if letter \"X\" or \"x\" is inputted.\n\nNow in this loop we first write What the operators will be.\nSystem.out.println(\"Enter your operator\");\nchar op = in.next().trim().charAt(0);\n\nThen we create an *if* statement for entering the types \nof operators and what will be there functions.\nif (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {\n   sout(\"Enter first number\");\n   int num1 = in.nextInt();\n   sout(\"Enter second number\")\n   int num2 = in.nextInt();\n   \n   if (op == '+') {\n      ans = num1 + num2\n   }\n\n   if (op == '/') {\n      if (num2 != 0) {\n         ans = num1 / num2;\n      }\n    }\n}\n",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 969,
+      "containerId": null,
+      "originalText": "First we write that the value of *ans* is zero.\n\nThen we create a continuous *while* loop which will \nonly stop if letter \"X\" or \"x\" is inputted.\n\nNow in this loop we first write What the operators will be.\nSystem.out.println(\"Enter your operator\");\nchar op = in.next().trim().charAt(0);\n\nThen we create an *if* statement for entering the types \nof operators and what will be there functions.\nif (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {\n   sout(\"Enter first number\");\n   int num1 = in.nextInt();\n   sout(\"Enter second number\")\n   int num2 = in.nextInt();\n   \n   if (op == '+') {\n      ans = num1 + num2\n   }\n\n   if (op == '/') {\n      if (num2 != 0) {\n         ans = num1 / num2;\n      }\n    }\n}\n",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
